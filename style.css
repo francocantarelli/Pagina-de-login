@@ -13,8 +13,8 @@ body{
 }
 
 .contenedor-login{
-    width: 300px;
-    margin: 150px auto;
+    width: 350px;
+    margin: 100px auto;
     padding: 25px;
     background-color: white;
     border-radius: 10px;
@@ -32,7 +32,7 @@ body{
 }
 
 .texto-input input{
-    width: 95%;
+    width: 96%;
     padding: 5px;
     border: 1px solid black;
     border-radius: 3px;
@@ -48,9 +48,54 @@ body{
     border-radius: 3px;
     cursor: pointer;
     transition: 0.5s;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
 }
 
 .boton-login:hover{
-    background-color: gray;
+    background-color: rgb(54, 54, 145);
     color: white;
+}
+
+.recordarme{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    margin: 10px 0 15px;
+}
+
+.recordarme label{
+    accent-color: black;
+    margin-left: -4px;
+}
+
+.recordarme a{
+    color: blue;
+    text-decoration: none;
+    transition: 1;
+}
+
+.recordarme a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.registrarse{
+    display: flex;
+    font-weight: 500;
+    margin: 0 0 15px;
+    margin-left: 2px;
+}
+
+.registrarse a{
+    color: blue;
+    text-decoration: none;
+    transition: 1;
+}
+
+.registrarse a:hover{
+    color: black;
+    text-decoration: underline;
 }
