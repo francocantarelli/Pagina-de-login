@@ -21,6 +21,14 @@ body{
     box-shadow: 0 1px 15px gray;
 }
 
+.texto-input i{
+    position: absolute;
+    transform: translateY(6px);
+    font-size: 100%;
+    translate: -25px;
+    
+}
+
 .texto-input{
     margin-bottom: 15px;
     font-weight: 500
@@ -99,3 +107,4 @@ body{
     color: black;
     text-decoration: underline;
 }
+
