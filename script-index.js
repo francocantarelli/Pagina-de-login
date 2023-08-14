@@ -17,6 +17,7 @@ document.getElementById("login-form").addEventListener("submit", function(event)
 
     if (validarLogin()){
         this.submit()
+        window.location.href = "https://elfrancoide.github.io/workspace-inicial/"
     }
 })
 
