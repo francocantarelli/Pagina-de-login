@@ -30,9 +30,19 @@ function validarFormulario(event) {
         return false;
     }
 
+    alert("Su usuario fue registrado con éxito, será redirigido a la pagina de login.");
     return true;
 }
 
+function registrado(){
+    if(validarFormulario()){
+        window.location.href = "index.html";
+    }
+}
+
 const formulario = document.getElementById("register-form");
-formulario.onsubmit = validarFormulario;
+formulario.onsubmit = function(event){
+    event.preventDefault();
+    registrado();
+}
 
